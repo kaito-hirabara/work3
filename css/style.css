@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* ----------------------　共通部分 ----------------------- */
+body {
+    font-family: 'Kosugi Maru', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.7;
+}
+a {
+    color: #000;
+}
+a:hover{
+    color: #20b2aa;
+    text-decoration: none;
+}
+/* ----------------------　メイン ----------------------- */
+.main {
+    background-size: cover;
+    height: 100vh;
+}
+nav {
+    width: 88%;
+    margin: 0 auto;
+}
+.nav-ul {
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+.nav-ul-li {
+    border-right: 1px rgba(211, 211, 211, 1) solid;
+}
+.logo {
+    width: 50px;
+}
+.catchphrase {
+    width: 50%;
+    margin: 10% 0 0 auto;
+}
+.wrapper {
+    background-color: rgba(219, 219, 219, 0.3);
+    padding: 10% 0 5%;
+}
+.search-wrapper {
+    margin-top: 8%;
+    padding-bottom: 25px;
+}
+.for-att p {
+    margin-top: 5px;
+}
+.for-att h5 {
+    padding: 5px 0 14px;
+}
+.search-wrapper img {
+    height: 400px;
+    margin-bottom: 25px;
+}
+.cgy1 {
+    margin: 6% 0 0;
+    border-radius: 5px 5px 0 0;
+}
+.cgy2 {
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+}
+.cgy1,
+.cgy2 {
+    border: 1px rgba(192, 192, 192, 1) solid;
+    background-color: #fff;
+}
+.for-border {
+    border-right: 1px rgba(192, 192, 192, 1) solid;
+    padding: 5px 0;
+}
+.search-wrapper  p {
+    font-size: 0.9rem;
+}
+.for-d {
+    display: inline;
+}
+.icon-r {
+    margin-right: 8px;
+}
+.item-wrapper {
+    padding: 5% 0;
+}
+.card-wrapper img {
+    height: 200px;
+}
+.card-wrapper h4 {
+    margin-top: 15px;
+}
+footer {
+    background-color: rgba(219, 219, 219, 0.3);
+    padding: 3% 0;
+}
+/* ------------ レスポンシブ（スマホ＆タブレット） ------------ */
+@media screen and (max-width: 767px) {
+    p {
+        font-size: 0.7rem;
+    }
+    h4, h5 {
+        font-size: 1.1rem;
+    }
+    nav {
+        width: 95%;
+    }
+    .nav-ul-li {
+        border: none;
+    }
+    .logo {
+        width: 90px;
+    }
+    .main {
+        height: auto;
+        padding-bottom: 30%;
+    }
+    .catchphrase {
+        width: 70%;
+        margin: 10% 0 0 auto;
+    }
+    .catchphrase p {
+        display: none;
+    }
+    .catchphrase h1 {
+        font-size: 0.9rem;
+    }
+    .for-none {
+        display: none;
+    }
+    .search {
+        font-size: 1.2rem;
+    }
+    .search-wrapper img {
+        height: auto;
+    }
+    .for-border {
+        border-bottom: 1px rgba(192, 192, 192, 1) solid;
+    }
+    .r-b {
+        border-right: 0;
+    }
+}
